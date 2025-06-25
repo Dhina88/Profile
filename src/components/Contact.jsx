@@ -25,7 +25,7 @@ const Contact = () => {
       <a href="https://instagram.com/dhinacurrent8" className={styles.socialButton} title="Instagram" target="_blank" rel="noopener noreferrer">
         <svg width="28" height="28" fill="none" viewBox="0 0 24 24"><path fill="#E4405F" d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5A4.25 4.25 0 0 0 20.5 16.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5Zm4.25 2.25A6.25 6.25 0 1 1 5.75 12 6.25 6.25 0 0 1 12 5.75Zm0 1.5A4.75 4.75 0 1 0 16.75 12 4.75 4.75 0 0 0 12 7.25Zm6.25-.5a1.25 1.25 0 1 1-1.25 1.25A1.25 1.25 0 0 1 18.25 6.75Z"/></svg>
       </a>
-      <a href="https://linkedin.com/in/dhinakharan-raja" className={styles.socialButton} title="LinkedIn" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/dhinakharan-raja-726376233/" className={styles.socialButton} title="LinkedIn" target="_blank" rel="noopener noreferrer">
         <svg width="28" height="28" fill="none" viewBox="0 0 24 24"><path fill="#0077B5" d="M19 0h-14C2.24 0 0 2.24 0 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5V5c0-2.76-2.24-5-5-5ZM7.12 20.45H3.56V9h3.56v11.45ZM5.34 7.67c-1.14 0-2.06-.92-2.06-2.06 0-1.14.92-2.06 2.06-2.06 1.14 0 2.06.92 2.06 2.06 0 1.14-.92 2.06-2.06 2.06ZM20.45 20.45h-3.56v-5.6c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.95v5.69h-3.56V9h3.42v1.56h.05c.48-.91 1.65-1.85 3.39-1.85 3.63 0 4.3 2.39 4.3 5.5v6.24Z"/></svg>
       </a>
     </div>
