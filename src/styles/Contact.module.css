@@ -31,17 +31,18 @@
 .input, .textarea {
   width: 100%;
   max-width: 400px;
-  padding: 12px 16px;
+  padding: 18px 22px;
   border: 1px solid #e0e0e0;
   border-radius: 10px;
-  font-size: 1rem;
+  font-size: 1.15rem;
   font-family: 'Poppins', Arial, sans-serif;
   background: #f5f9fc;
   resize: none;
+  min-height: 56px;
 }
 
 .textarea {
-  min-height: 100px;
+  min-height: 140px;
 }
 
 .submitButton {
