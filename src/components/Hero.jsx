@@ -35,9 +35,9 @@ const Hero = () => {
             <span className={styles.typewriter}>
               <Typewriter
                 words={['Innovator.', 'Engineer.', 'Builder.']}
-                loop={0}
+                loop={100}
                 cursor
-                cursorStyle='|'
+                cursorStyle='{}'
                 typeSpeed={90}
                 deleteSpeed={60}
                 delaySpeed={1200}
