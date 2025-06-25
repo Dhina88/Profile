@@ -1,0 +1,189 @@
+:root {
+  --hero-bg: #f5f9fc;
+  --headline-color: #111;
+  --subheadline-color: #333;
+  --text-color: #222;
+  --cta-bg: #111;
+  --cta-color: #fff;
+  --cta-hover-bg: #0077ff;
+}
+
+.heroSection {
+  width: 100%;
+  background: var(--hero-bg);
+  padding: 100px 0 100px 0;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+.heroContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+  padding: 0 32px;
+}
+
+.left {
+  flex: 1;
+  min-width: 280px;
+}
+
+.subheadline {
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--subheadline-color);
+  margin-bottom: 16px;
+  letter-spacing: 0.5px;
+}
+
+.headline {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--headline-color);
+  margin-bottom: 32px;
+  line-height: 1.1;
+}
+
+.typewriter {
+  color: var(--headline-color);
+  font-weight: 700;
+}
+
+.ctaButton {
+  margin-top: 12px;
+  padding: 16px 36px;
+  background: var(--cta-bg);
+  color: var(--cta-color);
+  border: none;
+  border-radius: 32px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+  transition: background 0.2s;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.ctaButton:hover {
+  background: var(--cta-hover-bg);
+  color: #fff;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 240px;
+}
+
+.imageWrapper {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.10);
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .heroContent {
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 16px;
+  }
+  .right, .left {
+    width: 100%;
+    min-width: 0;
+  }
+  .imageWrapper {
+    width: 220px;
+    height: 220px;
+  }
+  .headline {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 600px) {
+  .heroSection {
+    padding: 60px 0 60px 0;
+  }
+  .headline {
+    font-size: 28px;
+  }
+  .subheadline {
+    font-size: 16px;
+  }
+  .imageWrapper {
+    width: 140px;
+    height: 140px;
+  }
+  .ctaButton {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+}
+
+.snowflake {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background: rgba(255,255,255,0.85);
+  border-radius: 50%;
+  opacity: 0.7;
+  pointer-events: none;
+  animation: snowFall linear infinite;
+}
+
+/* Randomize snowflake positions and animation durations */
+.snowflake:nth-child(1)  { left: 5%;  animation-duration: 12s; animation-delay: 0s; }
+.snowflake:nth-child(2)  { left: 10%; animation-duration: 14s; animation-delay: 2s; }
+.snowflake:nth-child(3)  { left: 15%; animation-duration: 11s; animation-delay: 4s; }
+.snowflake:nth-child(4)  { left: 20%; animation-duration: 13s; animation-delay: 1s; }
+.snowflake:nth-child(5)  { left: 25%; animation-duration: 15s; animation-delay: 3s; }
+.snowflake:nth-child(6)  { left: 30%; animation-duration: 12s; animation-delay: 2s; }
+.snowflake:nth-child(7)  { left: 35%; animation-duration: 16s; animation-delay: 5s; }
+.snowflake:nth-child(8)  { left: 40%; animation-duration: 13s; animation-delay: 0s; }
+.snowflake:nth-child(9)  { left: 45%; animation-duration: 14s; animation-delay: 2s; }
+.snowflake:nth-child(10) { left: 50%; animation-duration: 12s; animation-delay: 4s; }
+.snowflake:nth-child(11) { left: 55%; animation-duration: 15s; animation-delay: 1s; }
+.snowflake:nth-child(12) { left: 60%; animation-duration: 13s; animation-delay: 3s; }
+.snowflake:nth-child(13) { left: 65%; animation-duration: 14s; animation-delay: 2s; }
+.snowflake:nth-child(14) { left: 70%; animation-duration: 16s; animation-delay: 5s; }
+.snowflake:nth-child(15) { left: 75%; animation-duration: 12s; animation-delay: 0s; }
+.snowflake:nth-child(16) { left: 80%; animation-duration: 13s; animation-delay: 2s; }
+.snowflake:nth-child(17) { left: 85%; animation-duration: 15s; animation-delay: 4s; }
+.snowflake:nth-child(18) { left: 90%; animation-duration: 14s; animation-delay: 1s; }
+.snowflake:nth-child(19) { left: 95%; animation-duration: 13s; animation-delay: 3s; }
+.snowflake:nth-child(20) { left: 98%; animation-duration: 16s; animation-delay: 2s; }
+
+@keyframes snowFall {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.7;
+  }
+  80% {
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateY(600px) scale(0.8);
+    opacity: 0.2;
+  }
+} 
