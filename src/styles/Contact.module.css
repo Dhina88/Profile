@@ -65,4 +65,33 @@
   font-size: 1.1rem;
   margin-top: 24px;
   font-weight: 600;
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.socialButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #f5f9fc;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  transition: transform 0.15s, box-shadow 0.15s;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.socialButton:hover {
+  transform: translateY(-4px) scale(1.08);
+  box-shadow: 0 4px 16px rgba(0,119,255,0.12);
+  background: #e6f3ff;
 } 
