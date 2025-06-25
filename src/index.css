@@ -4,9 +4,9 @@
 
 body {
   margin: 0;
-  background: #aedfff; /* light sky blue */
+  background: #000000; /* light sky blue */
   font-family: 'Poppins', Arial, sans-serif;
-  color: #222;
+  color: #101010;
 }
 
 .snowflake {
