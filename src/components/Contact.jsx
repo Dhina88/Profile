@@ -48,7 +48,7 @@ const Contact = () => {
           ></iframe>
         </div>
         <div className={styles.rightForm}>
-          <p className={styles.text}>Want to work together or have a question? Send me a message!</p>
+          <p className={styles.text}>Have something specific you want to discuss? Feel free to reach out. We're here to turn those ideas into something real!</p>
           {submitted ? (
             <div className={styles.thankYou}>Thank you for reaching out! I will get back to you soon.</div>
           ) : (

@@ -12,9 +12,9 @@ const About = () => (
         </p>
       </div>
       <div className={styles.right}>
-        <h3 className={styles.subheading}>Another Name</h3>
+        <h3 className={styles.subheading}>Tech Specialist Profile</h3>
         <p className={styles.rightDesc}>
-          This is a description for the other person or role. You can update this text to reflect the new content you want to show here.
+        A forward-thinking professional who is passionate about solving complex problems and driving meaningful progress through technology. Committed to continuous learning, delivering impactful solutions, and contributing to innovative projects that make a difference.
         </p>
         <ul className={styles.skillsList}>
           <li>Web & App Development</li>
