@@ -3,18 +3,18 @@ import styles from '../styles/Projects.module.css';
 
 const projects = [
   {
-    title: 'Portfolio Website',
-    description: 'A modern, responsive portfolio to showcase my work and skills.',
+    title: 'Web & App Development',
+    description: 'Custom-built websites and mobile-ready apps designed for speed, responsiveness, and a smooth user experience.',
     link: '#',
   },
   {
-    title: 'Task Manager App',
-    description: 'A productivity app to manage daily tasks and boost efficiency.',
+    title: 'AI Integration',
+    description: 'Smart solutions powered by AI; From automation tools to intelligent features that enhance productivity and real-world impact.',
     link: '#',
   },
   {
-    title: 'UI Component Library',
-    description: 'A reusable set of UI components for fast web development.',
+    title: 'System Security Integration',
+    description: 'Security-first systems designed to detect, prevent, and respond to threats, combining secure architecture with real-time monitoring.',
     link: '#',
   },
 ];
