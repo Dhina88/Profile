@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background: #b3e0ff; /* light sky blue */
+  background: #aedfff; /* light sky blue */
   font-family: 'Poppins', Arial, sans-serif;
   color: #222;
 }
@@ -14,7 +14,7 @@ body {
   top: -40px;
   width: 10px;
   height: 10px;
-  background: rgba(255,255,255,0.85);
+  background: rgba(243, 121, 121, 0.85);
   border-radius: 50%;
   opacity: 0.7;
   pointer-events: none;
