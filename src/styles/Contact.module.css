@@ -1,7 +1,7 @@
 .contactSection {
-  max-width: 600px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 40px 16px;
+  padding: 64px 32px;
   background: #fff;
   border-radius: 18px;
   box-shadow: 0 2px 16px rgba(0,0,0,0.04);
@@ -94,4 +94,49 @@
   transform: translateY(-4px) scale(1.08);
   box-shadow: 0 4px 16px rgba(0,119,255,0.12);
   background: #e6f3ff;
+}
+
+.contactGrid {
+  display: flex;
+  gap: 64px;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 32px;
+  flex-wrap: wrap;
+}
+
+.leftMap {
+  flex: 1 1 400px;
+  min-width: 340px;
+  max-width: 480px;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightForm {
+  flex: 1 1 400px;
+  min-width: 340px;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .contactGrid {
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+  }
+  .leftMap, .rightForm {
+    min-width: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+  .leftMap {
+    aspect-ratio: unset;
+    height: 320px;
+  }
 } 
