@@ -49,7 +49,7 @@ const Hero = () => {
         <div className={styles.right}>
           <div className={styles.imageWrapper}>
             <img
-              src="https://via.placeholder.com/320x320.png?text=Profile+Image"
+              src="public/images/dhina.jpg"
               alt="Dhina profile"
               className={styles.profileImage}
             />
