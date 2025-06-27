@@ -27,6 +27,11 @@ const projects = [
     description: 'A reusable set of UI components for fast web development.',
     link: '#',
   },
+  {
+    title: 'UI Component Library',
+    description: 'A reusable set of UI components for fast web development.',
+    link: '#',
+  },
 ];
 
 const Projects = () => (

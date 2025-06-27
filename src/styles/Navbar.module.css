@@ -82,12 +82,12 @@
 }
 
 .navLink {
-  color: #ffffff;
+  color: #000 !important;
   transition: color 0.3s;
 }
 
 .navLinkScrolled {
-  color: #222 !important;
+  color: #fff !important;
   transition: color 0.3s;
 }
 
