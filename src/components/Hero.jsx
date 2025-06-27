@@ -49,7 +49,7 @@ const Hero = () => {
         <div className={styles.right}>
           <div className={styles.imageWrapper}>
             <img
-              src="public/images/dhina.jpg"
+              src="/images/dhina.jpg"
               alt="Dhina profile"
               className={styles.profileImage}
             />
