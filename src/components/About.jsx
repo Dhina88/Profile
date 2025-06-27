@@ -12,9 +12,9 @@ const About = () => (
         </p>
       </div>
       <div className={styles.right}>
-        <h3 className={styles.subheading}>Tech Specialist Profile</h3>
+        <h2 className={styles.subheading}>Tech Specialist Profile</h2>
         <p className={styles.rightDesc}>
-        A forward thinking professional who is passionate about solving complex problems and driving meaningful progress through technology. Committed to continuous learning, delivering impactful solutions, and contributing to innovative projects that make a difference.
+          A forward thinking professional who is passionate about solving complex problems and driving meaningful progress through technology. Committed to continuous learning, delivering impactful solutions, and contributing to innovative projects that make a difference.
         </p>
         <ul className={styles.skillsList}>
           <li>Web & App Development</li>

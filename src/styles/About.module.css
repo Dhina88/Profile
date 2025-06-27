@@ -23,6 +23,9 @@
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
+  text-align: left !important;
+  width: 100%;
+  align-self: flex-start;
 }
 
 .skillsList {
@@ -73,17 +76,16 @@
   font-size: 1.05rem;
   font-weight: bold;
   color: #ffffff;
-  margin-bottom: 22px;
+  margin-bottom: 32px;
+  line-height: 2;
+  letter-spacing: 0.01em;
+  text-align: center !important;
+  width: 100%;
+  align-self: center;
 }
 
 .heading, .subheading, .text, .rightDesc, .skillsList, .skillsList li {
   text-align: center !important;
-}
-
-.text, .rightDesc {
-  text-align: center !important;
-  width: 100%;
-  align-self: center;
 }
 
 @media (max-width: 900px) {
