@@ -18,17 +18,17 @@ const projects = [
     link: '#',
   },
   {
-    title: 'Task Manager App',
-    description: 'A productivity app to manage daily tasks and boost efficiency.',
+    title: 'Forensics Interface Framework',
+    description: 'A modular interface toolkit tailored for digital forensics apps—timeline viewers, evidence logs, and file traceability tools.',
     link: '#',
   },
   {
     title: 'UI Component Library',
-    description: 'A reusable set of UI components for fast web development.',
+    description: 'A modular engine to rapidly prototype and deploy user interfaces with consistent behavior and design patterns.',
     link: '#',
   },
   {
-    title: 'UI Component Library',
+    title: 'Interface Engine',
     description: 'A reusable set of UI components for fast web development.',
     link: '#',
   },

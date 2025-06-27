@@ -16,9 +16,13 @@
 }
 
 .text {
-  font-size: 1.1rem;
-  color: #ffffff;
+  font-size: 1.22rem;
+  color: #333;
   margin-bottom: 24px;
+  line-height: 2.1;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .skillsList {
