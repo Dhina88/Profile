@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   width: 100%;
-  background: linear-gradient(90deg, #b3e1ff 0%, #e0c3fc 100%);
+  background: linear-gradient(90deg, #a3a3a3 0%, #e0c3fc 100%);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -25,7 +25,7 @@
   font-weight: 700;
   color: #ffffff;
   letter-spacing: 2px;
-  text-shadow: 0 2px 8px rgb(0, 0, 0);
+  text-shadow: 0 2px 8px rgb(255, 255, 255);
   transition: color 0.3s;
 }
 
