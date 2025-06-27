@@ -25,6 +25,19 @@
   margin-right: auto;
 }
 
+.leftText {
+  font-size: 1.22rem;
+  color: #fff;
+  margin-bottom: 24px;
+  line-height: 2.1;
+  max-width: 100%;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  background: none;
+  text-align: left;
+}
+
 .skillsList {
   display: flex;
   flex-wrap: wrap;
