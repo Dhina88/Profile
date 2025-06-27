@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   width: 100%;
-  background: linear-gradient(90deg, #b3e0ffcc 0%, #e0c3fccc 100%);
+  background: linear-gradient(90deg, #b3e1ff 0%, #e0c3fc 100%);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -23,9 +23,9 @@
 .logo {
   font-size: 2rem;
   font-weight: 700;
-  color: #0077ff;
+  color: #ffffff;
   letter-spacing: 2px;
-  text-shadow: 0 2px 8px rgba(0,119,255,0.08);
+  text-shadow: 0 2px 8px rgb(0, 0, 0);
   transition: color 0.3s;
 }
 
@@ -55,7 +55,7 @@
 .navLinks li a {
   position: relative;
   text-decoration: none;
-  color: #222;
+  color: #ffffff;
   font-weight: 600;
   font-size: 1.08rem;
   transition: color 0.2s;
@@ -74,7 +74,7 @@
 }
 
 .navLinks li a:hover {
-  color: #0077ff;
+  color: #000000;
 }
 
 .navLinks li a:hover::after {
