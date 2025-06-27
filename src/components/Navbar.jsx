@@ -22,10 +22,10 @@ const Navbar = () => {
         <div className={open ? styles.barOpen : styles.bar}></div>
       </div>
       <ul className={open ? styles.navLinksOpen : styles.navLinks}>
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a className={scrolled ? styles.navLinkScrolled : styles.navLink} href="#hero">Home</a></li>
+        <li><a className={scrolled ? styles.navLinkScrolled : styles.navLink} href="#about">About</a></li>
+        <li><a className={scrolled ? styles.navLinkScrolled : styles.navLink} href="#projects">Projects</a></li>
+        <li><a className={scrolled ? styles.navLinkScrolled : styles.navLink} href="#contact">Contact</a></li>
       </ul>
     </nav>
   );
