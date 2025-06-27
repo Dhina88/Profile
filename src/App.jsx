@@ -115,7 +115,7 @@ function App() {
         <Hero />
         <div style={{ height: 60 }} />
         <About />
-        <div style={{ height: 60 }} />
+        <div style={{ height: 24 }} />
         <Projects />
         <div style={{ height: 60 }} />
         <Contact />
