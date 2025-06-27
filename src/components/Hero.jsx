@@ -29,7 +29,7 @@ const Hero = () => {
       <SnowBackground />
       <div className={styles.heroContent} style={{ position: 'relative', zIndex: 1 }}>
         <div className={styles.left}>
-          <div className={styles.subheadline}>Hello I'm Dhina</div>
+          <div className={styles.subheadline}>Hello I'm Dhina. There's nothing to look here, but thanks for being here...</div>
           <h1 className={styles.headline}>
             I'm{' '}
             <span className={styles.typewriter}>

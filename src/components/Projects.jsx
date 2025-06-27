@@ -29,7 +29,7 @@ const projects = [
   },
   {
     title: 'Interface Engine',
-    description: 'A reusable set of UI components for fast web development.',
+    description: 'A reusable set of secure and scalable UI components built to streamline development and maintain consistency across projects.',
     link: '#',
   },
 ];

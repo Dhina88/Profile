@@ -8,11 +8,11 @@ const About = () => (
         <h2 className={styles.heading}>About Me</h2>
         <p className={styles.text}>
           I'm Dhina, A Tech Enthusiast, Innovator and Engineer who loves building impactful digital experiences. I enjoy solving problems, learning new technologies, and collaborating with creative people.
-          I'm also the Director of Mindflux Technology, a startup I started to explore how AI can be integrated into the real world; not just as a tool, but as a driver of impact. At Mindflux, we're building practical, intelligent systems that solve actual problems and making sure innovation stays grounded in purpose. <br></br><br></br>-Progress, innovation, and real-world impact continue to lead the way-
+          I'm also the Director of Mindflux Technology, a startup I started to explore how AI can be integrated into the real world; not just as a tool, but as a driver of impact. At Mindflux, we're building practical, intelligent systems that solve actual problems and making sure innovation stays grounded in purpose. <br></br><br></br>-- Not just moving forward, we’re flipping the script on innovation and making it count --
         </p>
       </div>
       <div className={styles.right}>
-        <h2 className={styles.subheading}>Tech Specialist Profile</h2>
+        <h2 className={styles.subheading}>Tech Stack</h2>
         <p className={styles.rightDesc}>
           A forward thinking professional who is passionate about solving complex problems and driving meaningful progress through technology. Committed to continuous learning, delivering impactful solutions, and contributing to innovative projects that make a difference.
         </p>
