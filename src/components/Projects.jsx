@@ -17,6 +17,31 @@ const projects = [
     description: 'Security-first systems designed to detect, prevent, and respond to threats, combining secure architecture with real-time monitoring.',
     link: '#',
   },
+  {
+    title: 'Portfolio Website',
+    description: 'A modern, responsive portfolio to showcase my work and skills.',
+    link: '#',
+  },
+  {
+    title: 'Task Manager App',
+    description: 'A productivity app to manage daily tasks and boost efficiency.',
+    link: '#',
+  },
+  {
+    title: 'UI Component Library',
+    description: 'A reusable set of UI components for fast web development.',
+    link: '#',
+  },
+  {
+    title: 'Random Project 1',
+    description: 'This is a placeholder for another project. Edit this text as you like.',
+    link: '#',
+  },
+  {
+    title: 'Random Project 2',
+    description: 'Another example project card. You can change this description.',
+    link: '#',
+  },
 ];
 
 const Projects = () => (

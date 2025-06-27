@@ -3,9 +3,18 @@ import styles from '../styles/Navbar.module.css';
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = React.useState(false);
+
+  React.useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 10);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return (
-    <nav className={styles.navbar}>
+    <nav className={`${styles.navbar} ${scrolled ? styles.scrolled : ''}`}>
       <div className={styles.logo}>Dhina</div>
       <div className={styles.menuIcon} onClick={() => setOpen(!open)}>
         <div className={open ? styles.barOpen : styles.bar}></div>

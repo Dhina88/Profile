@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   width: 100%;
-  background: linear-gradient(90deg, #b3e0ff 0%, #e0c3fc 100%);
+  background: linear-gradient(90deg, #b3e0ffcc 0%, #e0c3fccc 100%);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -11,8 +11,13 @@
   z-index: 100;
   box-shadow: 0 4px 24px rgba(0,119,255,0.10);
   font-family: 'Poppins', Arial, sans-serif;
-  border-radius: 0 0 18px 18px;
-  transition: background 0.4s;
+  transition: background 0.4s, backdrop-filter 0.4s;
+  backdrop-filter: none;
+}
+
+.navbar.scrolled {
+  background: linear-gradient(90deg, #b3e0ff99 0%, #e0c3fc99 100%);
+  backdrop-filter: blur(12px);
 }
 
 .logo {
