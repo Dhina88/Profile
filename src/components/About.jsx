@@ -6,7 +6,7 @@ const About = () => (
     <div className={styles.aboutGrid}>
       <div className={styles.left}>
         <h2 className={styles.heading}>About Me</h2>
-        <p className={styles.leftText}>
+        <p className={styles.text}>
           I'm Dhina, A Tech Enthusiast, Innovator and Engineer who loves building impactful digital experiences. I enjoy solving problems, learning new technologies, and collaborating with creative people.
           I'm also the Director of Mindflux Technology, a startup I started to explore how AI can be integrated into the real world; not just as a tool, but as a driver of impact. At Mindflux, we're building practical, intelligent systems that solve actual problems and making sure innovation stays grounded in purpose. <br></br><br></br>-Progress, innovation, and real-world impact continue to lead the way-
         </p>
